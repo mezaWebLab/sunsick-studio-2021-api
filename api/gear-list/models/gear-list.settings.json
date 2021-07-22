@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gear_lists",
+  "info": {
+    "name": "Gear List",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Items": {
+      "type": "richtext"
+    }
+  }
+}

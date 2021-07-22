@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gear-lists",
+      "handler": "gear-list.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gear-lists/count",
+      "handler": "gear-list.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gear-lists/:id",
+      "handler": "gear-list.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gear-lists",
+      "handler": "gear-list.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gear-lists/:id",
+      "handler": "gear-list.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gear-lists/:id",
+      "handler": "gear-list.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
