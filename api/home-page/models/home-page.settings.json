@@ -14,6 +14,12 @@
   "attributes": {
     "gear_lists": {
       "collection": "gear-list"
+    },
+    "galleries": {
+      "collection": "studio-gallery"
+    },
+    "artists": {
+      "collection": "discographies"
     }
   }
 }

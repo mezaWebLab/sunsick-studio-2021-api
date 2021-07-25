@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discographies",
+  "info": {
+    "name": "Artists",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Tracks": {
+      "type": "richtext"
+    }
+  }
+}
