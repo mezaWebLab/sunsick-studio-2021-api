@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "playlists",
+  "info": {
+    "name": "Playlists",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "embed": {
+      "type": "text"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}
